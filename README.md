@@ -1,14 +1,15 @@
 # CucumberFW_ONSITE_DEC23
 Java, Cucumber, TestNG, JVM, Git etc. 
-# pre condition 
+# Pre condition 
 - Intellij IDE- to write code(community edition)
 - we need java at least 17 or above 
 - we need maven to compile test (run our test)
 - we Git account -to store code 
-- we got few dependence
+# Dependencies
     - testng
-    - cucumber jvm java
-- we need two plugin in Intellij 
+    - cucumber jvm 
+
+# Plugin in Intellij 
   - Cucumber for java
   - Gherkin
 # How to run the test 
