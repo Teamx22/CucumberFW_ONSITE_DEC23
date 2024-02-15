@@ -17,3 +17,8 @@ Java, Cucumber, TestNG, JVM, Git etc.
 - TODO (RIPON)
 - AC -acceptance criteria 
 - MR -Merge request or PR - PUll request 
+# FW Goal
+- FW should be comfortable running into different env such as QA/Stage/PROUD
+- FW should be able to run in different Browser 
+- if rest fail then capture log and screenshot 
+- Function should be reusable -less duplicate  
