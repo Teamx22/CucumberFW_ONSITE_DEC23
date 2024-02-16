@@ -1,6 +1,6 @@
 Feature: TalentTEK Login Feature
 
-@test 1
+ @test1
   Scenario: Student logs in with valid credentials
     Given student at talentTEK Homepage
     And student enter their valid email address
