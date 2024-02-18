@@ -13,7 +13,7 @@ public class Hook extends config {
     @Before
     public void beforeEachTest(){
         if(Strings.isNullOrEmpty(envType)){
-            envType = "stage";
+            envType = "qa";
         }
         if(Strings.isNullOrEmpty(browserType)){
             browserType = "ff";
@@ -22,9 +22,13 @@ public class Hook extends config {
        switch (envType){
            case "qa":
                url = "https://qa.taltektc.com";
+                        STUDENT_EMAIL="qa.env@gamil.com";
+                       STUDENT_PASSWORD="123456";
                break;
            case "stage":
                url = "https://stage.taltektc.com";
+               STUDENT_EMAIL="stage.env@gamil.com";
+               STUDENT_PASSWORD="123456";
                break;
            case "prod":
                url = "https://pros.taltektc.com";

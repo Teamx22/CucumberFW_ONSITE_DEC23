@@ -2,3 +2,4 @@ base\config.class
 login_step.class
 stepDef\Hook.class
 TestRunner.class
+base\testData.class
